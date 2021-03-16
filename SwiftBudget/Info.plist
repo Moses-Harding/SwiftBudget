@@ -26,5 +26,17 @@
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+    <key>NSUbiquitousContainers</key>
+        <dict>
+            <key>iCloud.SwiftBudget</key>
+            <dict>
+                <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+                <true/>
+                <key>NSUbiquitousContainerName</key>
+                <string>[YOUR_IDENTIFIER]</string>
+                <key>NSUbiquitousContainerSupportedFolderLevels</key>
+                <string>Any</string>
+            </dict>
+        </dict>
 </dict>
 </plist>
